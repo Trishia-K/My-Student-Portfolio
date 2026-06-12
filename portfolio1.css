@@ -167,3 +167,54 @@ footer { padding: 3rem 0; font-size: 0.8rem; color: var(--text-muted); }
   .timeline-item { flex-direction: column; gap: 0.2rem; }
   .footer-layout { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
 }
+/* ==========================================
+   MOBILE & RESPONSIVE STYLES (Phones)
+   ========================================== */
+@media (max-width: 768px) {
+  
+  /* Fix 1: Make Nav links wrap or turn into a column so they don't break off screen */
+  .nav-container {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 16px;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  /* Fix 2: Change Hero Layout from a side-by-side grid to a stacked column */
+  #hero .container.hero-layout {
+    grid-template-columns: 1fr !important; /* Stack text on top of image */
+    text-align: center;
+    gap: 32px;
+  }
+
+  /* Center alignment for text elements on mobile */
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-actions {
+    align-items: center !important; /* Center buttons and social icons */
+  }
+
+  /* Fix 3: Ensure the image wrapper handles container scaling without overflowing boundary */
+  .hero-photo-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    order: -1; /* OPTIONAL: Moves photo above your bio text on mobile. Delete this line if you prefer photo below text */
+  }
+
+  /* Keeps your frame from ever exceeding mobile screen borders */
+  .minimal-photo-frame {
+    max-width: 240px !important; /* Slightly smaller box size optimized for phone displays */
+    width: 100%;
+  }
+}

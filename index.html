@@ -18,14 +18,15 @@
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#recommendations">Recommendations</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <section id="hero">
-    <div class="container hero-layout">
+<section id="hero">
+    <div class="container hero-layout" style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 40px; align-items: center;">
       <div class="hero-text">
         <p class="hero-eyebrow">Hi, My name is</p>
         <h1 class="hero-name">Kobumanzi<br><span class="accent-text">Trishia</span></h1>
@@ -35,28 +36,37 @@
           I am always looking for new challenges, eager to solve problems, and I love learning as I go.
         </p>
         
-        <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">See my work</a>
-          <div class="social-icons">
-            <a href="https://github.com/Trishia-K" target="_blank" aria-label="GitHub">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-            </a>
-            <a href="https://www.linkedin.com/in/kobumanzi-trishia-3a0654311/" target="_blank" aria-label="LinkedIn">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-            </a>
-            <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z M4 20l6.768 -6.768 M20 4l-6.768 6.768"></path></svg>
-            </a>
-            <a href="https://www.youtube.com/@Trishia_001" target="_blank" aria-label="YouTube">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
-            </a>
+        <div class="hero-actions" style="display: flex; flex-direction: column; gap: 16px; align-items: flex-start;">
+          <div style="display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+            <a href="#projects" class="btn btn-primary">See my work</a>
+            <div class="social-icons" style="margin: 0;">
+              <a href="https://github.com/Trishia-K" target="_blank" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/kobumanzi-trishia-3a0654311/" target="_blank" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+              <a href="https://x.com/kobu2rsha" target="_blank" aria-label="Twitter">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z M4 20l6.768 -6.768 M20 4l-6.768 6.768"></path></svg>
+              </a>
+              <a href="https://www.youtube.com/@Trishia_001" target="_blank" aria-label="YouTube">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+              </a>
+            </div>
+          </div>
+
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; padding-left: 4px;">
+            <span style="opacity: 0.6;">Documents: </span>
+            <a href="Trishia Kobumanzi CV.pdf" target="_blank" style="color: inherit; text-decoration: underline; margin-right: 12px;">CV</a>
+            <a href="year 2 sem 2 transcript no stamp.pdf" target="_blank" style="color: inherit; text-decoration: underline; margin-right: 12px;">Transcript</a>
+            <a href="recommendations.pdf" target="_blank" style="color: inherit; text-decoration: underline;">Letters</a>
           </div>
         </div>
       </div>
 
-      <div class="hero-photo-wrapper">
-        <div class="minimal-photo-frame">
-          <img src="edited dp.jpg" alt="Trishia Kobumanzi" class="profile-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+     <div class="hero-photo-wrapper">
+        <div class="minimal-photo-frame" style="max-width: 280px; width: 100%; height: auto; aspect-ratio: 3 / 4; overflow: hidden;">
+          <img src="ChatGPT Image Jun 12, 2026, 09_14_36 AM.png" alt="Trishia Kobumanzi" class="profile-img" style="width: 100%; height: 100%; object-fit: cover; object-position: center top;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
           <div class="photo-fallback" style="display: none;">
             <span>[ tk.jpg ]</span>
           </div>
@@ -84,7 +94,6 @@
             <li><span class="matrix-bullet">■</span> CSS3 </li>
             <li><span class="matrix-bullet">■</span> Express.js</li>
             <li><span class="matrix-bullet">■</span> Java</li>
-           
           </ul>
         </div>
         
@@ -166,12 +175,11 @@
           <div class="time-meta">June 2026 — Present</div>
           <div class="time-body">
             <h3>Student Intern — RukaPay</h3>
-<p>
-  <ul>
-        <li>Learning Nest.js on the job to understand, navigate, and contribute to the company's backend services.</li>
-        
-    </ul> 
-</p>
+            <p>
+              <ul>
+                <li>Learning Nest.js on the job to understand, navigate, and contribute to the company's backend services.</li>
+              </ul> 
+            </p>
           </div>
         </div>
 
@@ -179,46 +187,40 @@
           <div class="time-meta">2024</div>
           <div class="time-body">
             <h3>Student Intern — Bank of Uganda</h3>
-             <ul>
-        <li>Built "Simplify Money," a WordPress website that had courses and official bank resources to improve financial literacy.</li>
-        <li>Learned Power BI from scratch and built dashboards that visualised exchange rates over time..</li>
-    </ul>
+            <ul>
+              <li>Built "Simplify Money," a WordPress website that had courses and official bank resources to improve financial literacy.</li>
+              <li>Learned Power BI from scratch and built dashboards that visualised exchange rates over time.</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!--section id="recommendations">
+  <section id="education">
     <div class="container">
       <p class="section-label">04</p>
-      <h2 class="section-title">Kind Words</h2>
+      <h2 class="section-title">Education</h2>
       
-      <div class="rec-grid">
-        <div class="rec-card">
-          <p class="rec-text">"Add their quote here. Even one sentence about your work ethic, speed, or a specific feature you engineered."</p>
-          <div class="rec-author">
-            <div>
-              <div class="rec-name">Mr. Emmanuel</div>
-              <div class="rec-meta">Supervisor · RukaPay</div>
-              <div class="rec-links"><a href="#">LinkedIn</a><span>·</span><a href="#">Email</a></div>
-            </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="time-meta">2024 — Present</div>
+          <div class="time-body">
+            <h3>Uganda Christian University</h3>
+            <p>Bachelor of Science in Computer Science | Honours College Student | CGPA: 4.57</p>
           </div>
         </div>
 
-        <div class="rec-card">
-          <p class="rec-text">"Their quote about you here highlighting data visualization pipelines or development collaboration."</p>
-          <div class="rec-author">
-            <div>
-              <div class="rec-name">Mr. Ngabo</div>
-              <div class="rec-meta">Full Stack Developer · RukaPay</div>
-              <div class="rec-links"><a href="#">LinkedIn</a><span>·</span><a href="#">Email</a></div>
-            </div>
+        <div class="timeline-item">
+          <div class="time-meta">2021 — 2023</div>
+          <div class="time-body">
+            <h3>Mengo Senior School</h3>
+            <p>Physics, Economics and Mathematics / ICT</p>
           </div>
         </div>
       </div>
     </div>
-  </section-->
+  </section>
 
   <section id="contact">
     <div class="container contact-box">
@@ -242,7 +244,7 @@
   <footer>
     <div class="container footer-layout">
       <p>Trishia Kobumanzi's Portfolio</p>
-      <p class="footer-mono">// Status: Active</p>
+      <p class="footer-mono">Thanks for visiting</p>
     </div>
   </footer>
 
